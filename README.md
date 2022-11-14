@@ -1,1 +1,2 @@
 # btca-blockchain
+To speed up the synchronization of a new wallet, you can use the synchronized blockchain files. To do this, you need to run the downloaded wallet and stop it. Then replace the blockchain files (*blocks* and *chainstate* directories) in the wallet directory (default for **Windows** *%AppData%\Roaming\btca\\*; for **Linux** $%HOME/.btca/*; for **Mac** *$HOME/Library/Application Support/Examplecoin/*) with the files from the archive. Run the wallet file again. Synchronization will complete much faster.
